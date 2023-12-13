@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sendmail</title>
+</head>
+<div class="content-wrapper">
+
+
+
+  <!-- Main content -->
+  <section class="content">
+
+
+<div style="width:100%">
+          <div class="box box-default">
+            <div class="box-header with-border">
+
+	<div class="row">
+
+
+		 <h2 class="text-center">MAIL MANAGEMENT</h2>
+		  </br>
+
+</br>
+
+
+
+
+
+
+          <hr></hr>
+
+
+
+            <div class="box-header with-border">
+
+            <?php if($msg != "") echo "<div style='padding:20px;background-color:#dce8f7;color:black'> $msg</div class='btn btn-success'>" ."</br></br>";  ?>
+          </br>
+
+     <form class="form-horizontal" action="sendmail.php" method="POST" >
+
+           <legend>Send Mail  </legend>
+
+
+ <div class="form-group">
+        <input type="text" name="bname" placeholder="bank name"  class="form-control">
+        </div>
+
+         <div class="form-group">
+        <input type="text" name="subject" placeholder="Email Subject"  class="form-control">
+        </div>
+
+         <div class="form-group">
+        <input type="text" name="emails" placeholder="Recipient Email"  class="form-control">
+        </div>
+
+        <div class="form-group">
+        <textarea  name="message" placeholder="Write your mail here"  class="form-control">
+
+            </textarea>
+        </div>
+<!-- Submit Form Button Starts -->
+							<div class="form-group">
+								<button class="btn btn-primary" type="submit">send</button>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addwallet</title>
+</head>
+ <form class="form-horizontal" action="addwallet.php" method="POST" >
+
+           <legend>Add Wallet Details</legend>
+
+
+		   <input type="hidden" name="email"  value="<?php echo $_SESSION['email'];?>" class="form-control">
+
+     <div class="form-group">
+         <label>Ethereum Wallet</label>
+        <input type="text" name="ewallet" value="<?php echo $ew ;?>" placeholder="Ethereum wallet"  class="form-control">
+        </div>
+
+       <div class="form-group">
+            <label>Bitcoin Wallet</label>
+        <input type="text"  name="bwallet" value="<?php echo $bw ;?>" placeholder="Bitcoin wallet"  class="form-control">
+      </div>
+
+      <div class="form-group">
+           <label>USDT</label>
+        <input type="text"   name="pm" value="<?php echo $an ;?>" placeholder="USDT"   class="form-control">
+      </div>
+
+<button style="" type="submit" class="btn btn-primary" name="ubank" >Upgrade Details </button>
+
+    </form>
+<body>
+    </div>
+   </div>
+
+   </div>
+  </div>
+  </section>
+</div>
+
+
+</body>
+</html>

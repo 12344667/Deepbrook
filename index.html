@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEPBROOK MINNING</title>
+    <link rel="shortcut icon" type="image" href="https://s2.coinmarketcap.com/static/img/coins/200x200/5994.png">
+    <link rel="stylesheet" href="nft.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h1 class="logo">SHIBASWAP</h1>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a id="min">MINNING</a></li>
+                    <li><a href="nft.html">NFT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="burn.html">Burn_Portal</a></li>
+                                </ul>
+                                <!-- Main Menu Ends -->
+                            </div>
+                </nav>
+      <!-- Navigation Menu Ends -->
+
+        </div>
+        <div class="content">
+         <!--<h1><br><span>MINNING</span> <br></h1><br>
+            <p class="par">SHIB coin is an ERC-20 token (meaning it’s built on the Ethereum blockchain),<br>
+                 and it powers the Shiba Inu ecosystem. A fixed supply of 1 quadrillion coins were minted,<br>
+                  at launch (a quadrillion is a number followed by 15 zeros). <br>
+                  A full 50% of the initial supply of 1 quadrillion SHIB was locked in a Uniswap SHIB/ETH liquidity pool.</p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>-->
+
+                <div class="form">
+                    <h2>Mine Crypto Here</h2>
+                    <input type="text" name="email" list="sugg" placeholder="Enter Crypto Name" required>
+                    <datalist id="sugg">
+                        <option value="SHIB"></option>
+                        <option value="BNB"></option>
+                        <option value="SOLANA"></option>
+                        <option value="ETHEREUM"></option>
+                        <option value="BITCOIN"></option>
+                        <option value="POLKADOT"></option>
+                        <option value="XRP"></option>
+                        <option value="USDT"></option>
+                        <option value="BUSD"></option>
+                        <option value="DOGE"></option>
+                        <option value="CORE"></option>
+                        <option value="LUNC"></option>
+                        <option value="LUNA"></option>
+                        <option value="CARDANO"></option>
+                    </datalist>
+                    <input class='calculated-form-inputs-text' class="amount" type="number" name="" placeholder="Enter your hash rate" required>
+                <select class='calculated-form-inputs-select' class="" form="calc-form">
+                     <option value="TH/s">TH/s</option>
+                </select>
+                    <button class="btnn"><a href="mine.html">Mine</a></button>
+
+                    <p class="link">Please Enter Valid Entity<br>
+                    <a href="#"> </a> </a></p>
+
+                    <p class="liw">T&C applied</P>
+                   <!--
+                       <div class="icons">
+                         <a href="#"><ion-icon name="logo-"></ion-icon></a>
+                         <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                         <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                         <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                         <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                        </div>
+                    -->
+                    <div>
+                        <h4 class="title">TOTAL HASHRATE</h4>
+                        <p class="category">current available balance</p>
+                                               <h1 style="color: orange">100TH/S<?php echo round($pdbalance,2) + round($profit,2);?></h1>
+                                                </div>
+                </div>
+        <div class="minning-info">
+                    <h1 style="color:white">MINNING</h1>
+                    <p style="font-size: 35px; color: orange; font-family: Times New Roman;">
+                        Crypto mining is the process of creating individual blocks added to the blockchain by solving complex mathematical problems.
+                        The purpose of mining is to verify cryptocurrency transactions and show proof of work,
+                        adding this information to a block on the blockchain, which acts as a ledger for mining transactions.
+                    </p>
+        </div>
+                    <h1>Revenue will change based on mining difficulty and Ethereum price.<h1>
+                    </div>
+        <style>
+               h1 {
+                 font-size: 10px;
+                 font-family: Arial, Helvetica, sans-serif;
+                 color: #333;
+                 margin-top: 50px;
+                 text-align: center;
+               }
+               span {
+                 color: rgb(215, 233, 226);
+               }
+             </style>
+           </head>
+           <body>
+             <h1 style="color: blue;">
+               <span id="replace-container"> <h1 style="color: purple;">DEEPBROOK  MADE CRYPTO</nav>
+               <span id="word-container">CRYPTO  </span> <br>
+                   </h1>
+             <script>
+               // Set up the array of words to cycle through
+               const words = [" IN USA","MORE PROFITABLE","EASIER", "BETTER", "FASTER", "SECURE", "AMAZING"];
+               // Set up the typing animation function
+               function typeText(text, delay, element) {
+                 let i = 0;
+
+                 function type() {
+                   element.innerHTML = text.slice(0, i++) + "_";
+
+                   if (i <= text.length) {
+                     setTimeout(type, delay);
+                   } else {
+                     element.innerHTML = text;
+                   }
+                 }
+
+                 type();
+               }
+
+               // Set up the function to cycle through the words
+               function cycleWords() {
+                 const word = words.shift();
+                 words.push(word);
+
+                 if (word === "easier") {
+                   setTimeout(function() {
+                     typeText(word, 150, document.getElementById("replace-container"));
+                     setTimeout(function() {
+                       cycleWords();
+                     }, 2000);
+                   }, 1000);
+                 } else {
+                   typeText(word, 150, document.getElementById("word-container"));
+                   setTimeout(cycleWords, 4000);
+                 }
+               }
+
+               // Start the animation
+               cycleWords();
+             </script>
+           </body>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+        </div>
+        <script src="//code.tidio.co/xieqtelfbc5bzpr01uilyazx7g7ucrl7.js" async></script>
+        <!-- Wrapper Ends -->
+    </body>
+
+</html>
+
+
+    </div>
+</body>
+</html>
